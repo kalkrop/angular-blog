@@ -1,26 +1,18 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://sm.ign.com/t/ign_pt/articlepage/r/robert-downey-jr-confirms-iron-man-4/robert-downey-jr-confirms-iron-man-4_zx1y.1280.jpg"
-      alt=""
-      height="200px"
-    />
+    <img src="{{ photoCover }}" alt="" height="200px" />
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas
-        mi sit amet felis consequat feugiat. Etiam cursus vehicula scelerisque.
-        Donec sed feugiat erat. Sed erat nunc, auctor tempus luctus quis, porta
-        id tellus. Quisque sed elit eget magna sodales dignissim. Proin rhoncus
-        ultrices felis at laoreet. Proin vitae nibh nec purus eleifend interdum.
-        Vestibulum id posuere felis, in ornare turpis. Suspendisse semper mauris
-        metus, vitae vehicula enim vulputate eu.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
